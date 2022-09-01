@@ -16,21 +16,21 @@
 }
 
 body {
-    background-color:#fff;
-    width: 1140px;
+    
+    width: auto;
     margin: 0 auto;
+    
 }
 
 /* -----------Блок header--------------------*/
 header {
-    background-color: #fff;
+
     width: 569px;
     height: 56px;
     display: flex;
     position: absolute;
     justify-content:space-between;
     margin-top: 80px;
-    margin-left: 82px;
     
 }
 
@@ -42,7 +42,7 @@ header {
 main {
     width: 1440px;
     height: 678px;  
-    background-color: #fff;
+    margin: 0 auto;
 }
 
 h1 {
@@ -93,6 +93,7 @@ h1 {
     width: 189px;
     height: 56px;
     line-height: 55px;
+    font-family: 'AvantGarde Bk BT';
 }
 
 .text-main a:hover {
@@ -177,7 +178,7 @@ h1 {
 .work {
     height:581px ;
     width: 1440px;
-    
+    margin: 0 auto;
 }
 
 .wraper-work {
@@ -225,7 +226,7 @@ h1 {
 }
 
 .vertical-line-work {
-    border: 1px solid #878787;
+    border-left: 1px solid #878787;
     transform: rotate(180deg);
     width: 0px;
     height: 93px;
@@ -234,11 +235,10 @@ h1 {
 
 /*-------- Блок About Us----------*/
 .About-Us {
-    height:565px ;
+    height:860px ;
     width: 1440px;
-    background-color: #4d4c4c;
     display: flex;
-    
+    margin: 0 auto;
 }
 
 .img-About-Us {
@@ -253,4 +253,465 @@ h1 {
     height: 565px;
     margin-left: 99px;
     padding-top: 18px;
+}
+
+.info-About-Us {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    color: #919191;
+
+}
+
+.horizontal-line-work {
+    display: block;
+    border-left: 1px solid #878787;
+    transform: rotate(90deg);
+    width: 0px;
+    height: 52px;
+    position: absolute;
+    margin-top: -19px;
+    margin-left: 105px;
+}
+
+.text-About-Us h2{
+    font-family: 'AvantGarde Bk BT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 65px;
+    letter-spacing: 0.02em;
+    color: #252525;
+    margin-top: 25px;
+}
+
+
+.text-About-Us p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 35px;
+    color: #6D6D6D;
+    width: 538px;
+    height: 191px;
+    margin-top: 37px;
+}
+
+.text-About-Us a {
+    margin-top: 60px;
+    text-decoration: none;
+    font-family: 'AvantGarde Bk BT';
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #252525;
+    text-align: center;
+    width: 189px;
+    height: 56px;
+    line-height: 55px;
+
+}
+
+.text-About-Us a:hover {
+        background-color: #4d4c4c;
+    }
+
+/*-------- Блок Exclusive----------*/
+
+.Exclusive {
+    width: 1440px;
+    height:520px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.text-Exclusive-Menu {
+    width: 538px;
+    height:520px;
+    margin-left: 81px;
+}
+
+
+.horizontal-line-Exclusive {
+    border-top: 1px solid #878787;
+    transform: rotate(180deg);
+    width: 52px;
+    height: 0px;
+    margin-top:9px;
+    margin-left: 120px;
+    position: absolute;
+}
+
+.info-Exclusive-Menu {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    color: #919191;
+}
+
+.text-Exclusive-Menu h2 {
+    font-family: 'AvantGarde Bk BT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 65px;
+    letter-spacing: 0.02em;
+    color: #252525;
+    margin-top: 25px;
+}
+
+.p-Exclusive {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 35px;
+    color: #808080;
+    width: 538px;
+    height: 191px;
+    margin-top: 37px;
+    margin-bottom: 60px;
+}
+
+.text-Exclusive-Menu a {
+    text-decoration: none;
+    font-family: 'AvantGarde Bk BT';
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #252525;
+    width: 189px;
+    height: 56px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text-Exclusive-Menu a:hover {
+    background-color: #4d4c4c;
+}
+
+.wraper-a-text-Exclusive-Menu {
+    margin-top: 60px;
+}
+
+.img-Exclusive-Menu {
+    height: 520px;
+    width: 616px;
+    display: grid;
+    grid-template-columns:2;
+    grid-template-rows:3;
+    border: #c21717;
+    column-gap:18px;
+    margin-left: 125px;
+}
+
+.img1-Exclusive Menu {
+    grid-column:1/2;
+    grid-row:1/2;
+}
+
+.img2-Exclusive-Menu {
+    grid-column:1/2;
+    grid-row:3/4;
+}
+
+.img3-Exclusive-Menu {
+    grid-column:2/2;
+    grid-row:1/4;
+}
+
+/*-------- Блок booking---------*/
+.booking {
+    width: 1440px;
+    height: 1161px;
+    display: flex;
+    flex-direction:column;
+    margin: 0 auto;
+}
+
+.text-booking {
+    text-align: center;
+    margin-top: 225px;
+}
+
+.span-booking {
+    font-family: 'AvantGarde Bk BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #909090;
+}
+
+.text-booking h2 {
+    font-family: 'AvantGarde Bk BT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 65px;
+    color: #252525;
+    width: 593px;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+/* форма заявки*/
+.form-booking {
+    margin: 0 auto;
+    width: 1123px;
+    height: 126px;
+    margin-top: 133px;
+    border: 0.5px solid #7F7F7F;
+}
+
+.box-booking {
+   
+    display: flex;
+    margin-top: 35px;
+    margin-left: 56px;
+    width: 1012px;  
+    height: 56px;
+    
+}
+
+.block1-form-booking {
+    display: flex;
+    align-items:center;
+    width: 158px;
+    height: 24px;
+    margin-top: 15px;
+}
+
+.block2-form-booking {
+    display: flex;
+    align-items:center;
+    width: 180px;
+    height: 24px;
+    margin-top: 15px;
+}
+
+.block3-form-booking {
+    display: flex;
+    align-items:center;
+    width: 155px;
+    height: 24px;
+    
+    margin-top: 15px;
+
+}
+
+.img-block1-form-booking {
+    background-image: url(../img/person.png);
+    width:24px;
+    height:24px;
+}
+
+.img-block2-form-booking {
+    background-image: url(../img/calendar.png);
+    width:24px;
+    height:24px;
+}
+
+.img-block3-form-booking {
+    background-image: url(../img/clock.png);
+    width:24px;
+    height:24px;
+}
+
+.text-form-booking {
+    margin-left: 20px;
+}
+
+.text2-form-booking {
+    margin-left: 20px;
+}
+
+.img1-form-booking {
+    background-image: url(../img/arrow.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.vertical-booking {
+    display: block;
+    border-right: 1px solid #7F7F7F;
+    transform: rotate(180deg);
+    width: 0px;
+    height: 40px;
+    margin-left: 62px;
+    margin-right: 63px;
+    margin-top: 5px;
+}
+
+
+.box-booking a {
+    text-decoration: none;
+    font-family: 'AvantGarde Bk BT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 189px;
+    height: 56px;
+    margin-left: 80px;
+}
+
+.box-booking a:hover {
+    background-color: #4d4c4c;
+}
+
+.box-img-booking {
+    margin: 0 auto;
+    margin-top: 82px;
+}
+
+/*-------- Блок reviews---------*/
+.reviews {
+    height:849px;
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.block-reviews {
+    display: block;
+    width: 1267px;
+    height: 627px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    margin-top: 85px;
+    padding-left: 20px;
+}
+
+.wrapper-block-reviews {
+    display: flex;
+    justify-content:space-between;
+    margin-left: 39px;
+    margin-right: 39px;
+}
+
+.wrapper {
+    display: block;
+
+}
+.block-reviews span {
+    font-family: 'AvantGarde Bk BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #909090;
+    text-align: center;
+   display: block;
+   margin-top: 68px;
+}
+
+.block-reviews h2 {
+    width: 444px;
+    height: 100px;
+    font-family: 'AvantGarde Bk BT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    
+    color: #000000;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.wrapper-Box-reviews {
+    background-color: #FFFFFF;
+    width: 383px;
+    height: 249px;
+    margin-right: 20px;
+}
+
+.Box-reviews {
+    width: 188px;
+    height: 58px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 16px;
+    margin-top: 109px;
+}
+
+.ico-reviews {
+    background-image: url(../img/person-outline.png);
+    background-repeat: no-repeat;
+    background-size:  58px 58px;
+    width: 58px;
+    height: 58px;
+    box-shadow: 0px 4px 20px rgba(198, 198, 198, 0.25);
+}
+
+.Box-text-reviews {
+    margin-top: 4px;
+    margin-left: 46px;
+}
+
+.Box-text-reviews h3 {
+    display: block;
+    font-family: 'AvantGarde Bk BT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+}
+
+.Box-text-reviews span {
+    display: block;
+    font-family: 'AvantGarde Bk BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #BCBCBC;
+    text-align: center;
+    
+}
+
+.block-reviews p {
+    font-family: 'AvantGarde Bk BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #717171;
+    width: 343px;
+    height: 115px;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+.stars-reviews {
+    width: 186px;
+    height: 42px;
+    background: #000000;
+    background-image: url(../img/stars.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: translateY(-21px);
+    margin-left: 94px;
 }
